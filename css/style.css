@@ -26,6 +26,34 @@ fieldset {
     text-align: center;
     border: 0;
 }
+.msg h1 {
+    color: red;
+}
+.choice {
+    margin: auto;
+    width: auto;
+}
+.choice span button {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    border: 0px solid black;
+    cursor: pointer;
+    background-color: #fefefe;
+    color:rgb(39, 187, 245);
+    font-size: medium;
+}
+.persegi {
+    padding: 10px 47%;
+    margin: 40px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+.persegi-panjang {
+    padding: 10px 46.2%;
+    margin: 0px 20px 50px;
+    border-radius: 0px 0px 5px 5px;
+
+}
 .area-box {
     height: fit-content;
     width: 98%;
@@ -106,4 +134,20 @@ hr {
     font-size: large;
     cursor: pointer;
     margin: 20px auto;
+}
+footer {
+    text-align: center;
+    align-content: space-between;
+    text-decoration: none;
+    text-transform: none;
+}
+footer span a{
+    align-content: space-between;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+img {
+    width: 32px;
+    height: 32px;
 }
