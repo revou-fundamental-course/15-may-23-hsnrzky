@@ -8,16 +8,14 @@ msg.style.display = "none"
 main.style.display = "none"
 
 function luas() {
-    const sisi_luas = document.getElementById("sisi-luas").value;
-    const luas = sisi_luas * sisi_luas;
-    // var outputLuas = document.getElementById("output_luas");
+    var sisi_luas = document.getElementById("sisi-luas").value;
+    var luas = sisi_luas * sisi_luas;
     outputLuas.style.display = "block";
     outputLuas.innerHTML = "L = S x S<br>L = " + sisi_luas + " x " + sisi_luas + "<br>L = " + luas;
 }
 function keliling() {
-    const sisi_keliling = document.getElementById("sisi-keliling").value;
-    const keliling = 4 * sisi_keliling;
-    // var outputKeliling = document.getElementById("output_keliling");
+    var sisi_keliling = document.getElementById("sisi-keliling").value;
+    var keliling = 4 * sisi_keliling;
     outputKeliling.style.display = "block";
     outputKeliling.innerHTML = "K = 4 x S<br>K = 4 x " + sisi_keliling + "<br>K = " + keliling;
 }
@@ -25,11 +23,9 @@ function reset() {
     var resetLuas = document.getElementById("reset-luas");
     var resetKeliling = document.getElementById("reset-keliling");
     if (resetLuas) {
-        // var outputLuas = document.getElementById("output_luas");
         outputLuas.style.display = "none";
     }
     if(resetKeliling) {
-        // var outputKeliling = document.getElementById("output_keliling");
         outputKeliling.style.display = "none";
     }
     

@@ -99,7 +99,7 @@ hr {
     background-color: rgb(39, 187, 245);
     padding: 10px 15px;
     color: white;
-    border: 1px solid rgb(52, 51, 51);
+    border: 0px solid rgb(52, 51, 51);
     border-radius: 5px;
     font-size: large;
     cursor: pointer;
@@ -108,7 +108,7 @@ hr {
     background-color: rgb(39, 187, 245);
     padding: 10px 15px;
     color: white;
-    border: 1px solid rgb(52, 51, 51);
+    border: 0px solid rgb(52, 51, 51);
     border-radius: 5px;
     font-size: large;
     cursor: pointer;
