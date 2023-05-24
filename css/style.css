@@ -42,7 +42,7 @@ fieldset {
     margin: auto;
     text-align: center;
     display: flex;
-    border: 0px solid black;
+    border: 0px solid transparent;
     cursor: pointer;
     background-color: #fefefe;
     color:rgb(39, 187, 245);
