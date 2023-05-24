@@ -13,7 +13,7 @@ header button {
     border: 0px solid transparent;
     cursor: pointer;
 }
-header span {
+header button span {
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(221, 221, 221);
@@ -42,7 +42,7 @@ fieldset {
     margin: auto;
     text-align: center;
     display: flex;
-    border: 0px solid black;
+    border: 1px solid black;
     cursor: pointer;
     background-color: #fefefe;
     color:rgb(39, 187, 245);
@@ -155,4 +155,29 @@ footer span a{
 img {
     width: 32px;
     height: 32px;
+}
+@media (min-width: 320px) and (max-width: 767px){
+    .persegi {
+        margin: auto;
+        padding: 10px 39%;
+        font-size: small;
+    }
+    .persegi-panjang {
+        margin: auto;
+        padding: 10px 35%;
+        font-size: small;
+    }
+    .msg h1{
+        font-size: large;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .persegi {
+        margin: auto;
+        padding: 10px 45.3%;
+    }
+    .persegi-panjang {
+        margin: auto;
+        padding: 10px 44%;
+    }
 }
